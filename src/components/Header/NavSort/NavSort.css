@@ -1,0 +1,49 @@
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+
+.nav__btn {
+  border: none;
+  background-color: transparent;
+  color: #000;
+  opacity: 0.4;
+}
+
+.nav__btn--active {
+  opacity: 1;
+}
+
+.nav__list-link {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.nav__btn-link {
+  border: none;
+  background-color: transparent;
+  color:#1e90ff;
+}
+
+.nav__btn-back {
+  border: none;
+  background-color: transparent;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__btn-back svg {
+  width: 20px;
+  height: 14px;
+  margin-right: 5px;
+}

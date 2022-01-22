@@ -1,0 +1,37 @@
+.product-view__box {
+  width: 28%;
+}
+
+.product-view__img {
+  width: 330px;
+  height: 330px;
+  display: block;
+  background-color: #999;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-view__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin: 30px auto 0 auto;
+  justify-content: space-between;
+}
+
+.product-view__btn {
+  border:1px solid #999;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.product-view__btn span {
+  width: 35px;
+  height: 35px;
+  display: block;
+  background-color: #999;
+}

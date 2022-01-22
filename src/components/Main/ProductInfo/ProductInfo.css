@@ -1,0 +1,62 @@
+.product-info__box {
+  width: 34%;
+}
+
+.info-top {
+  border-bottom: 1px solid rgba(136, 136, 136, 0.4);
+  padding: 10px;
+}
+
+.info-top__download-btn {
+  border: none;
+  background-color: transparent;
+  color: #1e90ff;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.info-top__download-btn svg {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.info-bottom {
+  padding-top: 30px;
+}
+
+.info-bottom__counting {
+  width: 80px;
+  border: 1px solid rgba(153, 153, 153, 0.6);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.info-bottom__counting span {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.info-bottom__count-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-bottom__count-box button {
+  width: 30px;
+  height: 25px;
+  border: none;
+  border-left: 1px solid #888;
+}
+
+.info-bottom__count-box button:first-child {
+  border-bottom: 1px solid #888;
+  border-top-right-radius: 4px;
+}
+
+.info-bottom__count-box button:last-child {
+  border-bottom-right-radius: 4px;
+}
